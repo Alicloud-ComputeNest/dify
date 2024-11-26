@@ -301,10 +301,10 @@ Resources:
 
             systemctl enable dify
 
+            
             systemctl start dify
           - RegionId:
               Ref: ALIYUN::Region
-  
 Outputs: 
   nginx_address:
     Description:
